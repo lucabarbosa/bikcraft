@@ -6,7 +6,10 @@ body {
   font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
-img { max-width: 100%; }
+img {
+  display: block;
+  max-width: 100%;
+}
 
 .site-container {
   max-width: 70%;
@@ -48,6 +51,10 @@ img { max-width: 100%; }
 .page-header {
   background: #fec63e;
   padding: 15px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
 }
 
 .page-header .site-container {
@@ -92,6 +99,7 @@ img { max-width: 100%; }
 
 .intro {
   background: url('../img/bg.jpg') no-repeat center;
+  margin-top: 92px;
   padding-top: 80px;
   height: 380px;
   width: 100%;
@@ -213,6 +221,7 @@ img { max-width: 100%; }
 }
 
 .product-card__picture {
+  margin: 0 auto;
   padding: 20px;
 }
 
