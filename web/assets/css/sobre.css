@@ -1,0 +1,50 @@
+.intro-about {
+  background: url('../img/bg-sobre.jpg') no-repeat center;
+}
+
+.about-section {
+  align-items: flex-start;
+  display: grid;
+  grid-template: 
+    "art-one art-two" .5fr
+    "image image"     1fr
+    / 2fr 1fr; 
+  grid-gap: 20px;
+  padding-bottom: 0;
+}
+
+.about-section__image {
+  grid-area: image;
+}
+
+.about-article {
+  text-align: left;
+}
+
+.about-article__title {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.about-article__title:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 60px;
+  background: #000;
+  margin: 5px 0 20px;
+}
+
+.about-article__text {
+  font-size: 17px;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  line-height: 25px;
+  margin-bottom: 1em;
+  padding-right: 60px; 
+}
+
+.about-article__list-item {
+  line-height: 30px;
+  margin-bottom: 0;
+}
