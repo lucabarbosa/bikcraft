@@ -1,13 +1,120 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="utf-8">
-    <title>Bikcraft</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="utf-8">
+  <title>Bikcraft</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">  
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    
+ 
+  <header class="page-header">   
+    <div class="site-container">
+      <a href="index.html">
+        <img class="page-header__logo" src="assets/img/logo.png" alt="bikcraft">
+      </a>
+
+      <nav class="page-header__menu">
+        <ul class="menu">
+          <li class="menu__item"><a class="menu__link" href="sobre.html">Sobre</a></li>
+          <li class="menu__item"><a class="menu__link" href="produtos.html">Produtos</a></li>
+          <li class="menu__item"><a class="menu__link" href="portfolio.html">Portfólio</a></li>
+          <li class="menu__item"><a class="menu__link" href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="intro">
+    <h2 class="intro__title">Bicicletas Feitas a Mãos</h2>
+    <blockquote class="quote">
+      <p class="quote__text">"não tenha nada em sua casa que você não considere útil ou acredita ser bonito"</p>
+      <cite class="quote__author">William Morris</cite>
+    </blockquote>
+    <a class="intro__button button" href="produtos.html">Orçamento</a>
+  </section>
+
+  <section class="page-section site-container">
+    <h2 class="page-section__title">Produtos</h2>
+
+    <ul class="product-card-list">        
+      <li class="product-card">
+        <img class="product-card__picture" src="assets/img/produtos/passeio.png" alt="Bicicleta Passeio">
+        <div class="product-card__legend">
+          <h3 class="product-card__title">Passeio</h3>
+          <p class="product-card__description">Ainda assim, existem dúvidas a respeito de como a necessidade de renovação</p>
+        </div>
+      </li>
+
+      <li class="product-card">
+        <img class="product-card__picture" src="assets/img/produtos/esporte.png" alt="Bicicleta Esporte">
+        <div class="product-card__legend">
+          <h3 class="product-card__title">Esporte</h3>
+          <p class="product-card__description">Ainda assim, existem dúvidas a respeito de como a necessidade de renovação</p>
+        </div>
+      </li>
+
+      <li class="product-card">
+        <img class="product-card__picture" src="assets/img/produtos/retro.png" alt="bicicleta-passeio">
+        <div class="product-card__legend">
+          <h3 class="product-card__title">Retro</h3>
+          <p class="product-card__description">Ainda assim, existem dúvidas a respeito de como a necessidade de renovação</p>
+        </div>
+      </li>
+    </ul>
+
+    <p class="page-section__see-more">clique aqui e veja os detalhes dos produtos</p>
+    <a class="button button--background-white" href="produtos.html">Produtos</a>
+  </section>
+
+  <section class="page-section page-section--black">
+    <div class="site-container">
+      <h2 class="page-section__title">Portfólio</h2>
+
+      <ul class="portfolio-grid">    
+        <li class="porfolio-grid__pic-one"><img src="assets/img/portfolio/retro.jpg" alt="Bicicleta Retro"></li> 
+        <li class="porfolio-grid__pic-two"><img src="assets/img/portfolio/passeio.jpg" alt="Bicicleta Passeio"></li>
+        <li class="porfolio-grid__pic-three"><img src="assets/img/portfolio/esporte.jpg" alt="Bicicleta Esporte"></li>
+      </ul>      
+
+      <p class="page-section__see-more">conheça mais o nosso portfólio</p>
+      <a class="button" href="portfolio.html">Portfólio</a>
+    </div>
+  </section>
+
+  <section class="page-section site-container quality-section">
+      <h2 class="page-section__title">Qualidade</h2>
+
+      <img class="quality-section__logo" src="assets/img/yellow-logo.png" alt="Bikcraft">
+
+      <ul class="quality-list">
+        <li class="quality-item">
+          <h3 class="quality-item__title">Durabilidade</h3>
+          <p class="quality-item__description">Ainda assim, existem dúvidas a respeito de como a necessidade de renovação renovação renovação</p>
+        </li>
+
+        <li class="quality-item">
+          <h3 class="quality-item__title">Design</h3>
+          <p class="quality-item__description">Ainda assim, existem dúvidas a respeito de como a necessidade de renovação renovação renovação</p>
+        </li>
+
+        <li class="quality-item">
+          <h3 class="quality-item__title">Sustentabilidade</h3>
+          <p class="quality-item__description">Ainda assim, existem dúvidas a respeito de como a necessidade de renovação renovação renovação</p>
+        </li>
+      </ul>
+
+      <p class="page-section__see-more">Conheça mais a nossa história</p>
+    <a class="button button--background-white" href="sobre.html">Sobre</a>
+  </section>
+
+  <section class="page-section break-section">
+    <blockquote class="quote">
+      <p class="quote__text">"o verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana."</p>
+      <cite class="quote__author">William Morris</cite>
+    </blockquote>
+  </section>
+
 </body>
 </html>
